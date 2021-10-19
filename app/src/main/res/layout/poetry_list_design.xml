@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#DFDDDD"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_poetname"
+        android:gravity="center_vertical"
+        android:minHeight="30dp"
+        android:paddingLeft="5dp"
+        android:text="Vikas Kumar"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/textview_poetrydata"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="70dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textStyle="bold"
+        android:text="उसकी अहमियत है क्या, बताना भी ज़रूरी है !
+है उससे इश्क़ अग़र तो जताना भी ज़रूरी है !!"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_poetrydateandtime"
+        android:gravity="right|center_vertical"
+        android:minHeight="20dp"
+        android:paddingRight="5dp"
+        android:text="26 feb 2010" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:id="@+id/update_btn"
+            android:text="Update"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:id="@+id/delete_btn"
+            android:text="Delete"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            />
+
+</LinearLayout>
+    </LinearLayout>
